@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>ToDoList</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+
+<body>
+	<main class="todolist-main">
+		<div class="container">
+			<h1> Add new task </h1>
+			<div class="input-group">
+				<input id="new-task" class="form-control" placeholder="Enter task">
+				<span>
+					<button onclick="addTask()" id="btn" type="button" class="btn btn-primary addTaskBtn">Submit</button>
+				</span>
+			</div>
+
+			<ul id="completed-tasks">
+
+			</ul>
+			<ul id="uncompleted-tasks">
+
+			</ul>
+
+		</div>
+	</main>
+</body>
+<script src="js/script.js"></script>
+
+</html>
